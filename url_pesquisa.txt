@@ -1,0 +1,11 @@
+https://coreos.com/os/docs/latest/quickstart.html
+https://coreos.com/os/docs/latest/network-config-with-networkd.html
+https://coreos.com/os/docs/latest/installing-to-disk.html
+https://coreos.com/validate/
+http://www.ricardomartins.com.br/coreos-o-que-e-e-como-funciona/
+https://devops.profitbricks.com/tutorials/setup-coreos-cluster-on-profitbricks/
+https://coreos.com/os/docs/latest/booting-on-vmware.html#booting-with-vmware-workstation-12
+http://www.ricardomartins.com.br/coreos-como-realizar-a-instalacao-basica/
+https://github.com/coreos/etcd/issues/3600
+https://github.com/coreos/bugs/issues/1028
+https://coreos.com/etcd/docs/latest/clustering.html
