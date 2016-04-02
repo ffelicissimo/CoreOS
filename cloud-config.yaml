@@ -23,6 +23,19 @@ coreos:
             TimeoutStartSec=0
 
 coreos:
+  units:
+    - name: settimezone.service
+      command: start
+      content: |
+        [Unit]
+        Description=Set the time zone
+
+        [Service]
+        ExecStart=/usr/bin/timedatectl set-timezone America/Sao_Paulo
+        RemainAfterExit=yes
+        Type=oneshot
+
+coreos:
   etcd2:
     name: "s500lxhmlcoreos01"
     # generate a new token for each unique cluster from https://discovery.etcd.io/new?size=3
