@@ -107,3 +107,13 @@ write_files:
       bootparams:  files
       automount:   files
       aliases:     files
+
+#cloud-config
+write_files:
+  - path: "/etc/resolv.conf"
+    permissions: "0644"
+    owner: "root"
+    content: |
+      nameserver 10.0.0.150
+      nameserver 10.0.0.151
+      search magazineluiza.intranet
